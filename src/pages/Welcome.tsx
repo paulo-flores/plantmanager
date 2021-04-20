@@ -13,12 +13,6 @@ import { Button } from "../components/Button";
 import colors from "../styles/colors";
 
 export function Welcome() {
-  const [visible, setVisible] = useState(false);
-
-  // function handleVisibility() {
-  //   visible == false ? setVisible(true) : setVisible(false);
-  // }
-
   return (
     <>
       <StatusBar barStyle="dark-content" backgroundColor="white"></StatusBar>
