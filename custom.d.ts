@@ -1,4 +1,7 @@
 declare module "*.png" {
   const content: any;
-  export default content;
+  export { content };
 }
+declare module "*.jpg" {}
+
+declare module "*.json" {}

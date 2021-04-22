@@ -26,7 +26,7 @@ export function Welcome() {
 
   return (
     <>
-      <StatusBar barStyle="dark-content" backgroundColor="white"></StatusBar>
+      {/* <StatusBar barStyle="dark-content" backgroundColor="white"></StatusBar> */}
       <SafeAreaView style={styles.container}>
         <View style={styles.wrapper}>
           <Text style={styles.title}>
